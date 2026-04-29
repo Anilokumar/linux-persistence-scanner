@@ -28,7 +28,7 @@ go install github.com/Anilokumar/linux-persistence-scanner/cmd/sentinel@latest
 
 <br>
 
-[Persistence Scan](#persistence-scan) · [JSON Output](#json-output)
+[Persistence Scan](#persistence-scan) · [JSON Output](#json-output) · [Minimum Severity Scan](#minimum-severity-scan)
 
 </div>
 
@@ -42,8 +42,17 @@ go install github.com/Anilokumar/linux-persistence-scanner/cmd/sentinel@latest
 
 ---
 
+### Minimum Severity Scan
+
+Structured findings for pipeline integration with severity minimum high.
+
+![Minimum Severity Scan](assets/high-severity.png)
+
+---
+
 ### JSON Output
 
 Structured findings for pipeline integration with scanner attribution, severity codes, evidence strings, and aggregate severity counts
 
 ![JSON Output](assets/json.png)
+
